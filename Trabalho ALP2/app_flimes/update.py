@@ -9,7 +9,7 @@ def atualizar(filmes_series):
             print("Voltando ao menu...")
             break
         elif resposta != "":
-            T_G_A_P = int(input("O que você quer editar?: (1)Titulo (2)Genêro (3)Ano de Lançamento (4)Plateforma"))
+            T_G_A_P = int(input("O que você quer editar?: (1)Titulo (2)Genêro (3)Ano de Lançamento (4)Plateforma: "))
             if T_G_A_P == 1:
                 a = False
                 for i in filmes_series:
@@ -108,4 +108,5 @@ def atualizar(filmes_series):
                                 continue
         else:
             print("Informe um titulo valido.")
+
             continue

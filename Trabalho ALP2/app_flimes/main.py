@@ -1,5 +1,5 @@
 # main.py
-import app_flimes
+import app_filmes
 # Se não salvou nada ainda
 filme_series = []
 
@@ -23,3 +23,4 @@ while True:
         break
     else:
         print("Opção inválida!\n")
+
